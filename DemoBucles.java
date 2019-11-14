@@ -1,35 +1,40 @@
+import java.util.Random;
 /**
- *    @author - 
+ *    @author - Jhoselin Tumiri Quiroz
  */
 public class DemoBucles
 {
     private final char ASTERISCO = '*';
     private final char ESPACIO = ' ';
-
+    private Random generador;
     /**
      * Constructor  
      */
     public DemoBucles()
     {
-       
+       generador = new Random();
     }
 
-    /**
-     * Calcular la mayor potencia de 2 que es menor o igual a numero
-     * Asumimos numero > 0
-     * 
-     * Si numero = 7 devuelve 4             numero = 8 devuelve 8
-     *    numero = 19 devuelve 16           numero = 32 devuelve 32
-     *    numero = 74 devuelve 64           numero = 1 devuelve 1
-     *    numero = 190 devuelve 128
-     *    
-     *  Usa bucles while
-     */
-    public int mayorPotencia2(int numero) {
+    // /**
+     // * Calcular la mayor potencia de 2 que es menor o igual a numero
+     // * Asumimos numero > 0
+     // * 
+     // * Si numero = 7 devuelve 4             numero = 8 devuelve 8
+     // *    numero = 19 devuelve 16           numero = 32 devuelve 32
+     // *    numero = 74 devuelve 64           numero = 1 devuelve 1
+     // *    numero = 190 devuelve 128
+     // *    
+     // *  Usa bucles while
+     // */
+    // public int mayorPotencia2(int numero) {
+        // int num = numero();
+        // while (numero > 0) {
+            // numero *     
         
-        return 0;
+        // }
+        // return 0;
 
-    }
+    // }
 
     /**
      * Escribir numero como suma de potencias de 2 
@@ -47,10 +52,12 @@ public class DemoBucles
      *  64 =    64
      */
     public void escribirSumaPotencias(int numero) {
-
-         
-
-    }
+        int suma =  0;
+        int conta = 1;
+        while (numero > 0)
+        
+        
+     }
 
     /**
      * Generar aleatorios entre 0 y 255
