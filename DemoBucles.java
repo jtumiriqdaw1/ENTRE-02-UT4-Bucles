@@ -1,4 +1,5 @@
 import java.util.Random;
+
 /**
  *    @author - Jhoselin Tumiri Quiroz
  */
@@ -34,60 +35,65 @@ public class DemoBucles
         return num;
      }
 
-    // /**
-     // * Escribir numero como suma de potencias de 2 
-     // * tal como indica el enunciado (Se asume numero > 0)
-     // * 
-     // * Todos los valores se muestran en pantalla fomateados a 6 posiciones 
-     // * y ajustados a la derecha
-     // * 
-     // * Hay que usar el método anterior - 
-     // * Utiliza bucles while
-     // * 
-     // *  77 =    64     8     4     1
-     // * 215 =   128    64    16     4     2     1
-     // *  18 =    16     2
-     // *  64 =    64
-     // */
-    // public void escribirSumaPotencias(int numero) {
-        // int suma =  0;
-        // int conta = 0;
-        // while (numero > 0){
-          // numero
-          
-        
-        // }
-        
-        
-     // }
-
-     
     /**
-     * Generar aleatorios entre 0 y 255
-     * y escribir cada aleatorio como suma de potencias de 2
-     * Parar al salir el 255 o despues de generar n aleatorios
-     * (ver enunciado)
+     * Escribir numero como suma de potencias de 2 
+     * tal como indica el enunciado (Se asume numero > 0)
      * 
-     * Hay que usar el método anterior
+     * Todos los valores se muestran en pantalla fomateados a 6 posiciones 
+     * y ajustados a la derecha
      * 
+     * Hay que usar el método anterior - 
      * Utiliza bucles while
      * 
+     *  77 =    64     8     4     1
+     * 215 =   128    64    16     4     2     1
+     *  18 =    16     2
+     *  64 =    64
      */
-    public void generarAleatorios(int n) {
+    public void escribirSumaPotencias(int numero) {
+        int num = numero;
+        int suma= 0;
+   
+        while (num > 0){
+          num -= mayorPotencia2;
+          suma += numero;
+          
+          
+          String.out.println(to.String("%6d"));
+        }
+       
+        
+     }
+
+     
+    // /**
+     // * Generar aleatorios entre 0 y 255
+     // * y escribir cada aleatorio como suma de potencias de 2
+     // * Parar al salir el 255 o despues de generar n aleatorios
+     // * (ver enunciado)
+     // * 
+     // * Hay que usar el método anterior
+     // * 
+     // * Utiliza bucles while
+     // * 
+     // */
+    // public void generarAleatorios(int n) {
 
        
 
-    }
+    // }
 
-    /**
-     *  Escribe en pantalla caracter n veces en la misma línes
-     *  
-     *  Usa bucles for
-     */
-    public void escribirCaracter(int n, char caracter)
-    {
-         
-    }
+    // /**
+     // *  Escribe en pantalla caracter n veces en la misma línes
+     // *  
+     // *  Usa bucles for
+     // */
+    // public void escribirCaracter(int n, char caracter)
+    // {
+         // for (int n =1;){
+            
+         // }
+    // }
 
     /**
      *  Genera la figura tal como muestra el enunciado 
