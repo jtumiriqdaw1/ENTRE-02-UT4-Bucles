@@ -53,12 +53,16 @@ public class DemoBucles
      */
     public void escribirSumaPotencias(int numero) {
         int suma =  0;
-        int conta = 1;
-        while (numero > 0)
+        int conta = 0;
+        while (numero > 0){
+          numero
+        
+        }
         
         
      }
 
+     
     /**
      * Generar aleatorios entre 0 y 255
      * y escribir cada aleatorio como suma de potencias de 2
